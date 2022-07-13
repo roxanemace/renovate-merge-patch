@@ -7,13 +7,8 @@
   "npmrc": "@themenu:registry=https://npm.pkg.github.com/",
   "packageRules": [
     {
-      "matchDatasources": ["npm"],
-      "stabilityDays": 3
-    },
-    {
-      "matchDatasources": ["rubygems"],
-      "stabilityDays": 3,
-      "rangeStrategy": "update-lockfile"
+      "updateTypes": ["patch"],
+      "automerge": true
     }
   ]
 }
