@@ -17,22 +17,6 @@
       "matchDatasources": ["rubygems"],
       "stabilityDays": 3,
       "rangeStrategy": "update-lockfile"
-    },
-    {
-      "matchPackageNames": ["hashicorp/terraform"],
-      "enabled": false
-    },
-    {
-      "matchPackageNames": ["notification_center"],
-      "registryUrls": ["https://rubygems.pkg.github.com/themenu"]
-    },
-    {
-      "groupName": "sentry",
-      "matchPackageNames": ["sentry-ruby", "sentry-rails", "sentry-sidekiq"]
-    },
-    {
-      "groupName": "rubocop",
-      "matchPackageNames": ["rubocop-config", "rubocop-rails", "rubocop-rspec"]
     }
   ]
 }
