@@ -9,9 +9,10 @@
   "rebaseWhen": "never",
   "commitMessagePrefix": ":wrench: (chore)",
   "npmrc": "@themenu:registry=https://npm.pkg.github.com/",
+  "separateMinorPatch": true,
   "packageRules": [
     {
-      "updateTypes": ["patch"],
+      "matchUpdateTypes": ["patch"],
       "automerge": true
     }
   ]
